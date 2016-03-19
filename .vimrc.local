@@ -2,3 +2,17 @@ set guifont=DejaVu_Sans_Mono_for_Powerline:h10:cANSI
 
 " No annoying sound on errors
 set noeb vb t_vb=
+
+" TaskList {
+    " tasklist.vim  任务列表插件
+    let g:tlTokenList = ["FIXME", "TODO", "HACK", "NOTE", "WARN", "MODIFY", "TASK"]
+
+    " 绑定快捷键，默认是 <Leader>t
+    nnoremap    ,td             :TaskList<CR>P
+
+    " 任务列表搜索的标识符列表，默认是 'FIXME TODO XXX'. 搜索到得结果按照分组和出现顺序排列. 可以如下更改:
+    "let g:tlTokenList = ['TOKEN1', 'TOKEN2', 'TOKEN3']
+
+    " 如果设置为1，则任务插件下次打开时会恢复到上次关闭时的位置. 默认是找到离光标当前行最近的标示符，可以如下更改:
+    let g:tlRememberPosition = 1
+" }
