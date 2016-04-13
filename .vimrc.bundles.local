@@ -21,6 +21,9 @@
 "Bundle 'rodjek/vim-puppet'
 
 
-" My map
+" My Map:
 Bundle 'Svtter/map.vim'
 Bundle 'Svtter/spf13-vim-config'
+
+" TaskList:
+Bundle 'TaskList.vim'
