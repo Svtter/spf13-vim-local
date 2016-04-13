@@ -1,4 +1,7 @@
+" redir @* | set guifont | redir END
+" save in reg[*]
 set guifont=DejaVu_Sans_Mono_for_Powerline:h10:cANSI
+"set guifont=Consolas:h10:cANSI
 
 " No annoying sound on errors
 set noeb vb t_vb=
